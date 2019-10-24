@@ -86,7 +86,7 @@ Here is a list of prefixes I like to use:
 - **Remove**: Remove something (e.g., a feature, test, file, etc.)
 - **Fix**: Fix an issue (e.g., a bug, typo, accident, misstatement)
 - **Bump**: Increase the version of something (e.g., dependency)
-- **Make**: Change the build process or toolink
+- **Make**: Change the build process or tooling
 - **Start**: Begin doing something (e.g., create a feature flag)
 - **Stop**: End doing something (e.g., remove a feature flag)
 - **Refactor**: A code change that is just a refactoring
