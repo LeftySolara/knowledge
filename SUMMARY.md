@@ -1,0 +1,18 @@
+# Table of contents
+
+* [My Knowledge Base](README.md)
+* [Cooking](cooking/README.md)
+  * [Nutrition](cooking/nutrition.md)
+  * [Recipes](cooking/recipes/README.md)
+    * [Beef and Broccoli Noodle Bowls](cooking/recipes/beef_and_broccoli_noodle_bowls.md)
+    * [Balsamic Glazed Chicken Meal Prep](cooking/recipes/balsamic_glazed_chicken.md)
+* [Programming](programming/README.md)
+  * [Tools](programming/tools/README.md)
+    * [GDB](programming/tools/gdb.md)
+    * [Git](programming/tools/git.md)
+  * [My Goals as a Software Developer](programming/goals.md)
+* [Productivity](productivity/README.md)
+  * [Getting Things Done](productivity/gtd.md)
+* [Databases](databases/README.md)
+  * [Database Normalization](databases/normalization.md)
+
