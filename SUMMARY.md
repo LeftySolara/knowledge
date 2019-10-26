@@ -7,6 +7,8 @@
     * [Beef and Broccoli Noodle Bowls](cooking/recipes/beef_and_broccoli_noodle_bowls.md)
     * [Balsamic Glazed Chicken Meal Prep](cooking/recipes/balsamic_glazed_chicken.md)
 * [Programming](programming/README.md)
+  * [Languages](programming/languages/README.md)
+    * [C](programming/languages/c/c_lang.md)
   * [Tools](programming/tools/README.md)
     * [GDB](programming/tools/gdb.md)
     * [Git](programming/tools/git.md)
