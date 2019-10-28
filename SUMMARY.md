@@ -13,7 +13,7 @@
     * [GDB](programming/tools/gdb.md)
     * [Git](programming/tools/git.md)
   * [My Goals as a Software Developer](programming/goals.md)
-  * [Software Development Tips](programmint/tips.md)
+  * [Software Development Tips](programming/tips.md)
 * [Productivity](productivity/README.md)
   * [Getting Things Done](productivity/gtd.md)
 * [Databases](databases/README.md)
