@@ -9,6 +9,8 @@
 * [Programming](programming/README.md)
   * [Languages](programming/languages/README.md)
     * [C](programming/languages/c/c_lang.md)
+    * [C++](programming/languages/c++/cpp_lang.md)
+    * [Python](programming/languages/python/python_lang.md)
   * [Tools](programming/tools/README.md)
     * [GDB](programming/tools/gdb.md)
     * [Git](programming/tools/git.md)
