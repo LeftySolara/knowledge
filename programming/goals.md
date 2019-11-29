@@ -72,3 +72,7 @@ The topics listed here are a combination of things I do and don't have experienc
 * [OSDev Wiki](https://wiki.osdev.org/Main_Page)
 * [C/C++ Reference](https://en.cppreference.com/w/)
 
+## Courses
+
+- [MIT OpenCourseware 6.042J - Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
+- [MIT OpenCourseware 6.006 - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
