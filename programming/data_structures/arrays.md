@@ -12,3 +12,9 @@ Features of arrays are:
 
 Dynamic arrays are the same as arrays, but with variable capacity.
 An example of this is the `vector` type in C++.
+
+## 2D Arrays
+
+2D arrays are used to represent rectangular grids. They are usually implemented as an array of arrays.
+
+In some languages, these are implemented internally as one-dimensional arrays, and in some others there's no multidimensional arrays at all.
