@@ -28,6 +28,16 @@ Delete a breakpoint:
 (gdb) delete 2
 ```
 
+## Run a program until segfault
+
+```
+set pagination off
+break exit
+commands
+run
+end
+```
+
 ## Debugging NCURSES Programs
 
 To debug an NCURSES program, its output needs to be redirected to a different tty. This allows the program to continue running nicely alongside our debugging session.
