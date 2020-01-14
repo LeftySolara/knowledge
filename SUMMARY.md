@@ -21,6 +21,7 @@
   * [Software Development Tips](programming/tips.md)
 * [Productivity](productivity/README.md)
   * [Getting Things Done](productivity/gtd.md)
+  * [GTD Trigger List](productivity/gtd_trigger_list.md)
 * [Databases](databases/README.md)
   * [Database Normalization](databases/normalization.md)
 

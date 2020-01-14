@@ -67,6 +67,7 @@ The topics listed here are a combination of things I do and don't have experienc
 * [The Mythical Man-Month](https://www.amazon.com/dp/0201835959/?coliid=IBJJJ0L783BGD&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 * [Clean Code](https://www.amazon.com/dp/0132350882/?coliid=I29R4OE4087XDY&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 * [System Design Primer](https://github.com/donnemartin/system-design-primer)
+* [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
 
 ### Reference Materials
 

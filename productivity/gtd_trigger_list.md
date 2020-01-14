@@ -1,0 +1,68 @@
+# GTD Trigger List
+
+This list is meant to be used during GTD weekly reviews.
+Its purpose is to jog your memory about things that should be on your radar but haven't been written anywhere yet.
+
+- Projects started, not completed
+- Projects that need to be started
+- Commitments to others
+    - Family
+    - Friends
+    - Professionals
+    - Borrowed items
+- Communications to make/get
+    - Family
+    - Friends
+    - Professional
+    - Phone calls
+    - Emails
+    - Letters
+    - Cards
+- Upcoming events
+    - Special occasions
+    - Birthdays
+    - Holidays
+    - Anniversaries
+    - Weddings
+    - Graduations
+    - Travel
+    - Social events
+    - Cultural events
+    - Sporting events
+- Administration
+    - Budgeting
+    - Bills
+    - Loans
+    - Investments
+    - Taxes
+    - Insurance
+- Waiting for
+    - Deliveries
+    - Repairs
+    - Reimbursments
+    - Loaned items
+    - RSVPs
+- Home
+    - Contractors
+    - Heating/air-conditioning
+    - Plumbing
+    - Electricity
+    - Landscaping
+    - Furniture
+    - Utilities
+    - Organizing/cleaning
+    - Music
+    - Phones
+    - Voicemails
+    - Pets
+    - Vehicle maintenance
+- Computers
+    - Desktops
+    - Servers
+    - Backups
+    - Patching
+- Health
+    - Doctors
+    - Dentists
+    - Exercise
+    - Diet
