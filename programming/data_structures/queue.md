@@ -10,9 +10,7 @@ In a queue, the newest item sits at the rear while the oldest is at the front. A
 
 The most common example of using queues is waiting in lines, such as the checkout line in a shop. The person who entered the line first will be at the front and will leave first. As people move through the line, the person who entered last will get closer and closer to the front, until the finally leave and the line is empty.
 
-![queue](images/queue_example.jpg)
-
-*In this example, Tyler is at the front of the line and will leave first. Bob will leave last.*
+![Example of a queue. Tyler is at the front, so he will leave first. Bob will leave last.](images/queue_example.jpg)
 
 ## Examples in Technology
 
