@@ -10,6 +10,7 @@
   * [Data Structures](programming/data_structures/README.md)
     * [Arrays](programming/data_structures/arrays.md)
     * [Stack](programming/data_structures/stack.md)
+    * [Queue](programming/data_structures/queue.md)
   * [Languages](programming/languages/README.md)
     * [C](programming/languages/c/c_lang.md)
     * [C++](programming/languages/c++/cpp_lang.md)
