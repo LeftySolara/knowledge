@@ -11,6 +11,7 @@
     * [Arrays](programming/data_structures/arrays.md)
     * [Stack](programming/data_structures/stack.md)
     * [Queue](programming/data_structures/queue.md)
+    * [Deque](programming/data_structures/deque.md)
   * [Languages](programming/languages/README.md)
     * [C](programming/languages/c/c_lang.md)
     * [C++](programming/languages/c++/cpp_lang.md)
