@@ -12,6 +12,7 @@
     * [Stack](programming/data_structures/stack.md)
     * [Queue](programming/data_structures/queue.md)
     * [Deque](programming/data_structures/deque.md)
+    * [Linked List](programming/data_structures/linked_list.md)
   * [Languages](programming/languages/README.md)
     * [C](programming/languages/c/c_lang.md)
     * [C++](programming/languages/c++/cpp_lang.md)
