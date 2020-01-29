@@ -9,6 +9,7 @@
 * [Programming](programming/README.md)
   * [Data Structures](programming/data_structures/README.md)
     * [Arrays](programming/data_structures/arrays.md)
+    * [Dynamic Array](programming/data_structures/dynamic_array.md)
     * [Stack](programming/data_structures/stack.md)
     * [Queue](programming/data_structures/queue.md)
     * [Deque](programming/data_structures/deque.md)
