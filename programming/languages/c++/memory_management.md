@@ -64,6 +64,6 @@ For more information, see [this article](https://www.geeksforgeeks.org/stdalloca
 
 ## Links
 
-[GeeksforGeeks - new and delete operators in C++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
-[GeeksforGeeks - std::allocator in C++](https://www.geeksforgeeks.org/stdallocator-in-cpp-with-examples/)
-[StackOverflow - In what cases do I use malloc and/or new?](https://stackoverflow.com/questions/184537/in-what-cases-do-i-use-malloc-and-or-new)
+- [GeeksforGeeks - new and delete operators in C++](https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/)
+- [GeeksforGeeks - std::allocator in C++](https://www.geeksforgeeks.org/stdallocator-in-cpp-with-examples/)
+- [StackOverflow - In what cases do I use malloc and/or new?](https://stackoverflow.com/questions/184537/in-what-cases-do-i-use-malloc-and-or-new)
