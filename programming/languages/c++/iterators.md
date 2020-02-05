@@ -48,6 +48,21 @@ Ostream iterators allow you to insert into an output stream. This basically mean
 
 Istream iterators are a type of input iterator. They let you read from an input stream.
 
+### Forward Iterators
+
+Forward iterators combine the properties of input and output operators. They are used for both reading and writing, along with saving and reusing data.
+
+Note that if a forward iterator is used for saving data, that iterator is only valid while the container is not modified. Reading from the iterator after modification results in undefined behavior.
+
+### Bidirectional Iterators
+
+Bidirectional iterators can use all forward iterator operations, plus the `--` operator to decrement.
+
+### Random Access Iterators
+
+Random access iterators are the most powerful type of iterator. They can use all operations from bidirectional iterators, perform standard pointer arithmetic (`iter + n`, `iter - n`, etc.), and can use all comparison operators.
+
+
 ## Links
 [Northwestern University - C++ Iterators](https://users.cs.northwestern.edu/~riesbeck/programming/c++/stl-iterators.html)
 [Geeksforgeeks - Introduction to Iterators in C++](https://www.geeksforgeeks.org/introduction-iterators-c/)

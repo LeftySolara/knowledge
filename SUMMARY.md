@@ -18,6 +18,7 @@
     * [C](programming/languages/c/c_lang.md)
     * [C++](programming/languages/c++/cpp_lang.md)
       * [Memory Management in C++](programming/languages/c++/memory_management.md)
+      * [Iterators in C++](programming/languages/c++/iterators.md)
     * [Python](programming/languages/python/python_lang.md)
   * [Tools](programming/tools/README.md)
     * [GDB](programming/tools/gdb.md)
