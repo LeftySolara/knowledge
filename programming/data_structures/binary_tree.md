@@ -51,7 +51,7 @@ There are a few different types of binary trees:
 
 ## Properties
 
-- The maximum number of nodes at level *l* is 2^(l-2)</sup>.
+- The maximum number of nodes at level *l* is 2^(l-2).
 - The maximum number of nodes in a binary tree of height *h* is 2^h-1
 
 ## Tree Traversals
