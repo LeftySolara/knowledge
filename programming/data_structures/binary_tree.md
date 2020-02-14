@@ -34,7 +34,7 @@ There are a few different types of binary trees:
 - Perfect Binary Tree
     - All internal nodes have two children
     - All leaf nodes are on the same level
-    - For a perfect tree of height *h*, there are 2<sup>h</sup>-1 nodes in total
+    - For a perfect tree of height *h*, there are 2^h-1 nodes in total
 - Balanced Binary Tree
     - The height of the tree is O(log n), where *n* is the total number of nodes
     - Good for search, insert, and delete performance
@@ -51,8 +51,8 @@ There are a few different types of binary trees:
 
 ## Properties
 
-- The maximum number of nodes at level *l* is 2<sup>l-2</sup>.
-- The maximum number of nodes in a binary tree of height *h* is 2<sup>h</sup>-1
+- The maximum number of nodes at level *l* is 2^(l-2)</sup>.
+- The maximum number of nodes in a binary tree of height *h* is 2^h-1
 
 ## Tree Traversals
 
