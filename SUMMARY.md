@@ -9,6 +9,7 @@
 * [Programming](programming/README.md)
   * [Data Structures](programming/data_structures/README.md)
     * [Arrays](programming/data_structures/arrays.md)
+    * [Binary Heap](programming/data_structures/binary_heap.md)
     * [Binary Tree](programming/data_structures/binary_tree.md)
     * [Deque](programming/data_structures/deque.md)
     * [Dynamic Array](programming/data_structures/dynamic_array.md)
