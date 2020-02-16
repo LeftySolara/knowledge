@@ -2,9 +2,8 @@
 
 A **binary heap** is a complete binary tree that satisfies the heap property. The **heap property** is defined as follows:
 
-1) In a *max heap*, the value of each node is less than or equal to the value of its parent
-
-2) In a *min heap*, the value of each node is greater than or equal to the value of its parent.
+1. In a *max heap*, the value of each node is less than or equal to the value of its parent
+2. In a *min heap*, the value of each node is greater than or equal to the value of its parent.
 
 In a max heap, the maximum element is stored at the root. In a min heap, the minimum element is stored at the root.
 
@@ -32,25 +31,23 @@ When using the array implementation the first item in the array is usually left 
 ## Insertion
 
 Inserting an item into a binary heap works as follows:
-1) Appended the new item to the end of the array.
 
-2) Repair the heap ordering.
+1. Appended the new item to the end of the array.
+2. Repair the heap ordering.
 
 To repair the ordering and restore the heap property after adding an item, take the following steps:
-1) Compare the newly added item with its parent.
 
-2) Swap the positions of the new item and its parent.
-
-3) For a min heap, continue this process until the value of the parent is greater than or equal to the value of the new item. For a max heap, continue until the parent is less than or equal to the new item.
+1. Compare the newly added item with its parent.
+2. Swap the positions of the new item and its parent.
+3. For a min heap, continue this process until the value of the parent is greater than or equal to the value of the new item. For a max heap, continue until the parent is less than or equal to the new item.
 
 ## Deletion
 
 The minimum (for a min heap) or maximum (for a max heap) value of a heap can always be found at the root. To remove it from the heap:
-1) Remove the root node from the heap.
 
-2) Replace the root node with the last node in the heap.
-
-3) Restore the heap property by percolating down (similar to what's done for insertion, but in reverse).
+1. Remove the root node from the heap.
+2. Replace the root node with the last node in the heap.
+3. Restore the heap property by percolating down (similar to what's done for insertion, but in reverse).
 
 ## Links
 
