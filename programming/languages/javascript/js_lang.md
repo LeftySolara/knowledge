@@ -17,7 +17,7 @@ var e = 0xFF;    // 255
 var f = 0377;    // 255
 ```
 
-The `Number` type cannot represent values larger than `2<sup>53</sup>` or less than `-2<sup>53</sup>` because of its internal representation.
+The `Number` type cannot represent values larger than `2^53` or less than `-2^53` because of its internal representation.
 
 #### Precision
 
@@ -117,14 +117,14 @@ You can assign `undefined` to a variable, but it's not recommended. Use `null` i
 
 The arithmetic operators in JavaScript are:
 
-`+` addition
-`-` subtraction
-`*` multiplication
-`**` exponentiation
-`/` division
-`%` modulus
-`++` increment
-`--` decrement
+    +  addition
+    -  subtraction
+    *  multiplication
+    ** exponentiation
+    /  division
+    %  modulus
+    ++ increment
+    -- decrement
 
 These operators can work on literals, variables, or expressions.
 
