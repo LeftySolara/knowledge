@@ -117,14 +117,14 @@ You can assign `undefined` to a variable, but it's not recommended. Use `null` i
 
 The arithmetic operators in JavaScript are:
 
-    +  addition
-    -  subtraction
-    *  multiplication
-    ** exponentiation
-    /  division
-    %  modulus
-    ++ increment
-    -- decrement
+- `+` addition
+- `-` subtraction
+- `*` multiplication
+- `**` exponentiation
+- `/` division
+- `%` modulus
+- `++` increment
+- `--` decrement
 
 These operators can work on literals, variables, or expressions.
 
