@@ -22,6 +22,7 @@
       * [Memory Management in C++](programming/languages/c++/memory_management.md)
       * [Iterators in C++](programming/languages/c++/iterators.md)
     * [JavaScript](programming/languages/javascript/js_lang.md)
+      * [Prototypal Inheritance](programming/languages/javascript/inheritance.md)
     * [Python](programming/languages/python/python_lang.md)
   * [Tools](programming/tools/README.md)
     * [GDB](programming/tools/gdb.md)
