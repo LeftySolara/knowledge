@@ -55,11 +55,7 @@ The topics listed here are a combination of things I do and don't have experienc
 ## Reading List
 
 ### Currently Reading
-<<<<<<< HEAD
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
-=======
-
->>>>>>> 02798059ea078339dbbd9f44cb7f14ab9cfc2e38
 
 ### Read
 
@@ -79,11 +75,8 @@ The topics listed here are a combination of things I do and don't have experienc
 * [Clean Code](https://www.amazon.com/dp/0132350882/?coliid=I29R4OE4087XDY&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 * [System Design Primer](https://github.com/donnemartin/system-design-primer)
 * [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
-<<<<<<< HEAD
 * [The Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%25_toc_start)
-=======
 * [Effective Modern C++](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
->>>>>>> 02798059ea078339dbbd9f44cb7f14ab9cfc2e38
 
 ### Reference Materials
 
