@@ -55,7 +55,11 @@ The topics listed here are a combination of things I do and don't have experienc
 ## Reading List
 
 ### Currently Reading
+<<<<<<< HEAD
 * [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+=======
+
+>>>>>>> 02798059ea078339dbbd9f44cb7f14ab9cfc2e38
 
 ### Read
 
@@ -67,6 +71,7 @@ The topics listed here are a combination of things I do and don't have experienc
 
 * [The Elements of Computing Systems](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p)
 * [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/?pldnSite=1)
+* [The Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%25_toc_start)
 * [How to Solve It](https://www.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/?pldnSite=1)
 * [Computer Networking: A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/?pldnSite=1)
 * [Language Implementation Patterns](https://www.amazon.com/Language-Implementation-Patterns-Domain-Specific-Programming/dp/193435645X/?pldnSite=1)
@@ -74,7 +79,11 @@ The topics listed here are a combination of things I do and don't have experienc
 * [Clean Code](https://www.amazon.com/dp/0132350882/?coliid=I29R4OE4087XDY&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 * [System Design Primer](https://github.com/donnemartin/system-design-primer)
 * [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
+<<<<<<< HEAD
 * [The Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%25_toc_start)
+=======
+* [Effective Modern C++](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
+>>>>>>> 02798059ea078339dbbd9f44cb7f14ab9cfc2e38
 
 ### Reference Materials
 
