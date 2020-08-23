@@ -22,6 +22,8 @@ The topics listed here are a combination of things I do and don't have experienc
     * Rust
     * Assembley
     * Bash
+    * Awk
+    * Sed
   * Version control
   * Debugging
   * Project structure
