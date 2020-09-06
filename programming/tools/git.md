@@ -100,4 +100,6 @@ Here is a list of prefixes I like to use:
 
 * [GitLab Tips and Tricks](https://about.gitlab.com/blog/2016/12/08/git-tips-and-tricks/)
 * [HN discussion on commit prefixes](https://news.ycombinator.com/item?id=21289827)
-
+* [How to fast-forward one commit](https://stackoverflow.com/questions/45155486/git-fast-forward-one-commit)
+* [Commands for deleting branches](https://gist.github.com/cmatskas/454e3369e6963a1c8c89)
+* [How to revert a commit](https://gist.github.com/gunjanpatel/18f9e4d1eb609597c50c2118e416e6a6)
