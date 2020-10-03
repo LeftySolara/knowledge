@@ -28,7 +28,7 @@ Once I know what something is, it gets put in its proper place. Here is where th
 
 * If it's something actionable, it goes into my task management system. I use [taskwarrior](https://taskwarrior.org/) for this.
 * If it's time-sensitive, it goes on my calendar.
-* If it's reference material I might need later, it goes into my personal notes \(or on this wiki\). For this I use [vnote](https://tamlok.github.io/vnote/en_us/).
+* If it's reference material I might need later, it goes into my personal notes or on this wiki. For this I keep a collection of local Markdown files that sync between my machines. For file sync I use [Syncthing](https://syncthing.net/).
 * If it's not important, it gets trashed and I don't think about it anymore.
 
 This is also where contexts come in. A _context_ is basically just a tool, thing, place, or person you need to get something done. For example, I have a "home" context for things that need to be done at home or a "phone" context for all the calls I need to make. Other contexts include work, school, my PC, etc.
