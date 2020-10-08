@@ -7,6 +7,11 @@ Features of arrays are:
 - Can have one or more dimensions
 - Fixed capacity
 
+The **capacity** of an array is the maximum number of items it can hold. The **length** is the number of items in the array.
+
+The capacity of an array is specified when it is created. The memory needed for the maximum size of the array is reserved, regardless of the number of items in it.
+The default value of empty array indexes is language-specific.
+
 
 ## Dynamic Arrays
 
