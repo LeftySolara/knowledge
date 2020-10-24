@@ -40,8 +40,49 @@ If a component is just taking in some props and rendering, then it's a good idea
 
 NOTE: As of React 16.8, this is no longer accurate. Much of the functionality of class components can now be achieved in functional components using [hooks](https://reactjs.org/docs/hooks-intro.html). Because I have yet to learn about them, I will not write an explanation here and will update this section at a later date.
 
+## Lifecycles
+
+The lifecycle of a component is the sequence of stages it goes through during its time in the DOM tree. This includes things like the time it is created, destroyed, or updated.
+
+### Lifecycle Methods
+
+Lifecycle methods are special methods in React that run during different stages of a component's lifecycle. Examples of lifecycle methods are listed below.
+
+Note that lifecycle methods can only be used in class components.
+
+- Common lifecycle methods
+    - `Render()`
+        - Contains logic that the component should display on-screen
+        - This is the only required method within a class component
+        - Has to be a pure function
+    - `ComponentDidMount()`
+        - Runs when a component is mounted (added to the DOM tree)
+        - This is often used for things like connecting to APIs, setting timers, and adding event listeners
+    - `ComponentDidUpdate()`
+        - Runs each time a component is rendered (does not run on very first render)
+    - `ComponentWillUnmount()`
+        - Runs when a component is removed from the DOM tree
+        - Often used for doing cleanup
+- Newer and more uncommon lifecycle methods
+    - `shouldComponentUpdate()`
+        - Lets React know if a component is affected by state/prop changes
+        - Useful for when you don't want to render state/prop changes
+        - Cannot update component state in this method
+    - `getDerivedStateFromProps()`
+        - Safer alternative to `componentWillReceiveProps()`
+        - Called just before each render
+        - Static function, so no access to `this`
+        - Returns object to update state in response to prop changes
+    - `getSnapshotBeforeUpdate()`
+        - Safer alternative to `componentWillUpdate()`
+        - Called right before DOM is updated
+        - Return value is passed to `componentDidUpdate()`
+
 ## Links
 * [Official React Website](https://reactjs.org/)
 * [React Documentation](https://reactjs.org/docs/getting-started.html)
 * [Components and Props](https://reactjs.org/docs/components-and-props.html)
 * [StackOverflow - When to use ES6 class based React components vs. functional ES6 React components](https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components)
+* [The Odin Project - Lifecycle Methods](https://www.theodinproject.com/courses/javascript/lessons/lifecycle-methods)
+* [Programming with Mosh - React Lifecycle Methods - A Deep Dive](https://programmingwithmosh.com/javascript/react-lifecycle-methods/)
+* [React Lifecycle Methods Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
