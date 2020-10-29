@@ -13,6 +13,7 @@
     * [Binary Tree](programming/data_structures/binary_tree.md)
     * [Deque](programming/data_structures/deque.md)
     * [Dynamic Array](programming/data_structures/dynamic_array.md)
+    * [Hash Table](programming/data_structures/hash_tables.md)
     * [Linked List](programming/data_structures/linked_list.md)
     * [Queue](programming/data_structures/queue.md)
     * [Stack](programming/data_structures/stack.md)
