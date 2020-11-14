@@ -13,6 +13,7 @@ Components can be written as regular JS functions or as classes.
 Functional components are regular JS functions that take a `props` parameter. `props` is an object containing properties that are passed to the component.
 
 Example of a functional component:
+
 ```
 function Person(props) {
     return <p>Hello {props.lastName}!</p>;
@@ -26,6 +27,7 @@ Class components are ES6 classes that extend `React.Component`. They are able to
 Similar to functional components, class components make use of a `props` object. In this case, `props` is a member of the class rather than a function parameter.
 
 Example of a class component:
+
 ```
 class Person extends React.Component {
     render() {
@@ -51,38 +53,40 @@ Lifecycle methods are special methods in React that run during different stages 
 Note that lifecycle methods can only be used in class components.
 
 - Common lifecycle methods
-    - `Render()`
-        - Contains logic that the component should display on-screen
-        - This is the only required method within a class component
-        - Has to be a pure function
-    - `ComponentDidMount()`
-        - Runs when a component is mounted (added to the DOM tree)
-        - This is often used for things like connecting to APIs, setting timers, and adding event listeners
-    - `ComponentDidUpdate()`
-        - Runs each time a component is rendered (does not run on very first render)
-    - `ComponentWillUnmount()`
-        - Runs when a component is removed from the DOM tree
-        - Often used for doing cleanup
+  - `Render()`
+    - Contains logic that the component should display on-screen
+    - This is the only required method within a class component
+    - Has to be a pure function
+  - `ComponentDidMount()`
+    - Runs when a component is mounted (added to the DOM tree)
+    - This is often used for things like connecting to APIs, setting timers, and adding event listeners
+  - `ComponentDidUpdate()`
+    - Runs each time a component is rendered (does not run on very first render)
+  - `ComponentWillUnmount()`
+    - Runs when a component is removed from the DOM tree
+    - Often used for doing cleanup
 - Newer and more uncommon lifecycle methods
-    - `shouldComponentUpdate()`
-        - Lets React know if a component is affected by state/prop changes
-        - Useful for when you don't want to render state/prop changes
-        - Cannot update component state in this method
-    - `getDerivedStateFromProps()`
-        - Safer alternative to `componentWillReceiveProps()`
-        - Called just before each render
-        - Static function, so no access to `this`
-        - Returns object to update state in response to prop changes
-    - `getSnapshotBeforeUpdate()`
-        - Safer alternative to `componentWillUpdate()`
-        - Called right before DOM is updated
-        - Return value is passed to `componentDidUpdate()`
+  - `shouldComponentUpdate()`
+    - Lets React know if a component is affected by state/prop changes
+    - Useful for when you don't want to render state/prop changes
+    - Cannot update component state in this method
+  - `getDerivedStateFromProps()`
+    - Safer alternative to `componentWillReceiveProps()`
+    - Called just before each render
+    - Static function, so no access to `this`
+    - Returns object to update state in response to prop changes
+  - `getSnapshotBeforeUpdate()`
+    - Safer alternative to `componentWillUpdate()`
+    - Called right before DOM is updated
+    - Return value is passed to `componentDidUpdate()`
 
 ## Links
-* [Official React Website](https://reactjs.org/)
-* [React Documentation](https://reactjs.org/docs/getting-started.html)
-* [Components and Props](https://reactjs.org/docs/components-and-props.html)
-* [StackOverflow - When to use ES6 class based React components vs. functional ES6 React components](https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components)
-* [The Odin Project - Lifecycle Methods](https://www.theodinproject.com/courses/javascript/lessons/lifecycle-methods)
-* [Programming with Mosh - React Lifecycle Methods - A Deep Dive](https://programmingwithmosh.com/javascript/react-lifecycle-methods/)
-* [React Lifecycle Methods Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+- [Official React Website](https://reactjs.org/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Components and Props](https://reactjs.org/docs/components-and-props.html)
+- [StackOverflow - When to use ES6 class based React components vs. functional ES6 React components](https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components)
+- [The Odin Project - Lifecycle Methods](https://www.theodinproject.com/courses/javascript/lessons/lifecycle-methods)
+- [Programming with Mosh - React Lifecycle Methods - A Deep Dive](https://programmingwithmosh.com/javascript/react-lifecycle-methods/)
+- [React Lifecycle Methods Diagram](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+- [React Router Quick Start](https://reactrouter.com/web/guides/quick-start)
