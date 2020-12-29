@@ -42,5 +42,5 @@ Adjacency lists are more efficient for spare graphs.
 
 - [Aditya Y. Bhargava - Grokking Algorithms](https://www.manning.com/books/grokking-algorithms)
 - [Jenny's lectures CS/IT NET&JRF - Graph representation in Data Structure(Graph Theory)|Adjacency Matrix and Adjacency List](https://www.youtube.com/watch?v=5hPfm_uqXmw)
-- [Wikipedia - Degree (graph theory)](<https://en.wikipedia.org/wiki/Degree_(graph_theory)>)
-- [Wikipedia - Graph (abstract data type)](<https://en.wikipedia.org/wiki/Graph_(abstract_data_type)>)
+- [Wikipedia - Degree (graph theory)](https://en.wikipedia.org/wiki/Degree_(graph_theory))
+- [Wikipedia - Graph (abstract data type)](https://en.wikipedia.org/wiki/Graph_(abstract_data_type))
