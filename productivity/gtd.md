@@ -41,6 +41,68 @@ Each week I like to take time to clean up and maintain my lists. Skipping this j
 
 I think this one speaks for itself.
 
+## My Process
+
+This is a description of how I use the GTD methodology in my own life to organize my tasks.
+I've tried many different things over the years and this is how I'm currently doing things.
+Remember, there is no "correct" way of doing things. The best way is whatever works _for you_.
+
+### Monthly Review
+
+On the first day of each month I take the time to sit down and go through my entire task list,
+no matter how long it is. Doing this helps streamline the weekly and daily reviews that I'll be
+describing next.
+
+I like the way I'm doing this now, as it works regardless of whether I've been keeping up with
+it. Whenever I go through down periods and fall behind, it's difficult to make myself start again
+because of the extra work needed to catch up. With this method I can just to the same steps
+as usual, reducing the friction and making me more likely to re-form the habit.
+
+The exact process I follow is:
+
+1. Create a monthly spread in my bullet journal. This spread consists of a calendar page
+   and a task page. I use a format very similar to the original version shown on the
+   [bullet journal website](https://bulletjournal.com/pages/learn).
+2. Go through my calendar and add existing events to the calendar page in the monthly spread.
+   I use Nextcloud as a calDAV server for storing events, and sync that to various clients on
+   my PCs and mobile devices.
+3. Clean out tasks from taskwarrior. Here I just mark tasks as done if they're already complete,
+   or delete them if they're no longer relevant. This reduces the amount of stuff you have to
+   look at and filter through while organizing things in later steps.
+4. Brain dump. At this point I look through my GTD trigger list and add everything that comes to mind
+   into my taskwarrior inbox. My setup uses an `in` tag to specify inbox items that still need
+   to be reviewed/processed, as described [here](https://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection).
+5. Process all pending tasks in taskwarrior. This will include all tasks added in the previous steps
+   and any tasks that were already there. Here I update all tasks with info like due date, recurrence,
+   detailed descriptions, tags, and which projects they belong to. This is also a good time to check
+   which tasks are being blocked by other tags and which ones need a `wait` filter applied.
+6. Add any tasks with a due date during the current month to the bullet journal monthly spread.
+7. Do the weekly review process (described below).
+8. Do the daily review process (described below).
+
+### Weekly Review
+
+The weekly review is shorter and much less formal than the monthly. I used to keep weekly spreads
+in my bullet journal but it became too much work with too little payoff for me. Right now my weekly
+process doesn't involve my bullet journal at all.
+
+At the start of each week, I review all the pending tasks in taskwarrior and make any needed updates.
+I also process everything in the inbox and make sure I have a good idea of what my priorities should
+be for the week. The is the time to shift around due dates if some things are taking longer than expected,
+and mark tasks as `started` if they're in progress.
+
+### Daily Review
+
+This part is meant to be quick and require as little work as possible, as it's supposed to be done
+first thing in the morning.
+
+In my bullet journal I use a daily log format very similar to the one on the [bullet journal website](https://bulletjournal.com/pages/learn).
+Each morning I look at my calendar and add any upcoming events to the daily log. This gives a godd estimate
+of how much time I'll have for my tasks that day. I then look at the top 10 or so items in taskwarrior
+and add them to the daily log. Which items are added depends on how important they are and how much time
+I have available that day. Taskwarrior is pretty good about assigning priority on its own, and things
+should be more or less organized already because of the weekly and monthly reviews.
+
 ## Links
 
 - [Asian Efficiency - GTD 101: The Beginner's Guide to Getting Things Done](http://www.asianefficiency.com/task-management/gtd-intro/)
