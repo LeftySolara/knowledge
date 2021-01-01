@@ -26,10 +26,10 @@ I usually do this once or twice a day. It helps remove friction from the system.
 
 Once I know what something is, it gets put in its proper place. Here is where things usually end up:
 
-* If it's something actionable, it goes into my task management system. I use [taskwarrior](https://taskwarrior.org/) for this.
-* If it's time-sensitive, it goes on my calendar.
-* If it's reference material I might need later, it goes into my personal notes or on this wiki. For this I keep a collection of local Markdown files that sync between my machines. For file sync I use [Syncthing](https://syncthing.net/).
-* If it's not important, it gets trashed and I don't think about it anymore.
+- If it's something actionable, it goes into my task management system. I use [taskwarrior](https://taskwarrior.org/) for this.
+- If it's time-sensitive, it goes on my calendar.
+- If it's reference material I might need later, it goes into my personal notes or on this wiki. For this I keep a collection of local Markdown files that sync between my machines. For file sync I use [Syncthing](https://syncthing.net/).
+- If it's not important, it gets trashed and I don't think about it anymore.
 
 This is also where contexts come in. A _context_ is basically just a tool, thing, place, or person you need to get something done. For example, I have a "home" context for things that need to be done at home or a "phone" context for all the calls I need to make. Other contexts include work, school, my PC, etc.
 
@@ -43,7 +43,6 @@ I think this one speaks for itself.
 
 ## Links
 
-* [Asian Efficiency - GTD 101: The Beginner's Guide to Getting Things Done](http://www.asianefficiency.com/task-management/gtd-intro/)
-* [GTD in 15 Minutes - A Pragmatic Guide to Getting Things Done](https://hamberg.no/gtd)
-* [GTD with Taskwarrior](https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro)
-
+- [Asian Efficiency - GTD 101: The Beginner's Guide to Getting Things Done](http://www.asianefficiency.com/task-management/gtd-intro/)
+- [GTD in 15 Minutes - A Pragmatic Guide to Getting Things Done](https://hamberg.no/gtd)
+- [GTD with Taskwarrior](https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro)
