@@ -58,7 +58,8 @@ The topics listed here are a combination of things I do and don't have experienc
 
 ### Currently Reading
 
-[Programming: Principles and Practice Using C++ (2nd Edition)](https://www.amazon.com/gp/product/0321992784/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+- [Programming: Principles and Practice Using C++ (2nd Edition)](https://www.amazon.com/gp/product/0321992784/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
+- [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ### Read
 
@@ -68,7 +69,6 @@ The topics listed here are a combination of things I do and don't have experienc
 
 ### Plan to Read
 
-- [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [The Elements of Computing Systems](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p)
 - [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/?pldnSite=1)
 - [The Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%25_toc_start)
