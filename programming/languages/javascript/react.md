@@ -80,6 +80,15 @@ Note that lifecycle methods can only be used in class components.
     - Called right before DOM is updated
     - Return value is passed to `componentDidUpdate()`
 
+### Hooks
+
+Hooks are a feature from React 16.8 that allow the use of state, lifecycle methods, and other features in functional components. Without hooks, class components are required to use these.
+
+#### Why Use Hooks?
+
+- [Reusing stateful logic between components is hard](https://reactjs.org/docs/hooks-intro.html#its-hard-to-reuse-stateful-logic-between-components)
+- [Complex components can become hard to understand](https://reactjs.org/docs/hooks-intro.html#complex-components-become-hard-to-understand)
+
 ## Links
 
 - [Official React Website](https://reactjs.org/)
