@@ -40,3 +40,4 @@
 - [Productivity](productivity/README.md)
   - [Getting Things Done](productivity/gtd.md)
   - [GTD Trigger List](productivity/gtd_trigger_list.md)
+  - [Personal Knowledge Management](productivity/knowledge_management.md)
