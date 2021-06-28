@@ -82,6 +82,8 @@ This is a list of things I'd like to learn more about as I grow as a software de
 
 ### Currently Reading
 
+- [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
+
 ### Read
 
 - [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?crid=25FA03V305LZR&keywords=the+c+programming+language&qid=1567439093&s=books&sprefix=The+C+P%2Cstripbooks%2C170&sr=1-1)
@@ -101,7 +103,6 @@ This is a list of things I'd like to learn more about as I grow as a software de
 - [The Mythical Man-Month](https://www.amazon.com/dp/0201835959/?coliid=IBJJJ0L783BGD&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 - [Clean Code](https://www.amazon.com/dp/0132350882/?coliid=I29R4OE4087XDY&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
 - [The Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%25_toc_start)
 - [Effective Modern C++](https://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
 
