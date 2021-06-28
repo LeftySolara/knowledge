@@ -17,6 +17,7 @@
       - [Database Normalization](computing/databases/normalization.md)
     - [Networking](computing/networking/README.md)
       - [IP Protocol](computing/networking/internet_protocol.md)
+      - [Sockets](computing/networking/sockets.md)
     - [Software Development](computing/software_dev/README.md)
       - [General Tips](computing/software_dev/tips.md)
       - [My Goals as a Software Developer](computing/software_dev/goals.md)
