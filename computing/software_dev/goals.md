@@ -2,47 +2,74 @@
 
 This is a list of things I'd like to learn more about as I grow as a software developer. This is not a checklist. Because there is _always_ more to learn, I would never feel comfortable checking something off.
 
-The topics listed here are a combination of things I do and don't have experience with, in no particular order.
+## Topics
 
-## General Topics
-
-- Basic Computer Science
-  - Hexadecimal/Binary notation
-  - Boolean logic
-  - Algorithms and Data Structures
-  - Abstraction
-- Language and Vocabulary
-  - Technical writing competency
-  - Documentation best practices
-- Programming and Scripting
-  - Languages
-    - C
-    - C++
-    - Python
-    - Rust
-    - Assembley
-    - Bash
-    - Awk
-    - Sed
-  - Version control
-  - Debugging
-  - Project structure
-  - Design Patterns
-    - Factory Functions
-  - Issue tracking
-  - Continuous integration
-  - Unit testing
+- General
+  - Binary/hex Notation
+  - Boolean Logic
+- Data Structures
+  - Arrays
+  - Strings
+  - Linked Lists
+  - Hash Tables
+  - Stacks
+  - Queues
+  - Trees
+    - Binary Tree
+    - Binary Search Tree
+    - Heap
+  - Graphs
+  - Matrices
+  - Tries
+- Algorithms
+  - Sorting
+    - Selection Sort
+    - Bubble Sort
+    - Insertion Sort
+    - Merge Sort
+    - Quick Sort
+    - Shell Sort
+  - Searching
+    - Linear Search
+    - Binary Search
+    - Breadth First Search
+    - Depth First Search
+  - Graph Algorithms
+    - Dijkstra's Algorithm
+  - Tree Traversal
+    - Inorder
+    - Preorder
+    - Postorder
+- Design Patterns
+  - Singleton
+  - Factory Method
+  - Strategy
+  - Observer
+  - Adapter
+  - State
+  - Command
+- Concepts
+  - Greedy Algorithms
+  - Dynamic Programming
+  - Divide and Conquer
+  - Recursion
+  - Threading
+  - Testing
+  - Scalability
+  - Programming Languages
   - Concurrency
-    - temporal coupling
-    - actor model
-    - activity diagrams
-- Toolchains
+  - Finite state machines
+- Databases
+- Tooling
+  - Version Control
+  - Debuggers
+  - Issue Tracking
+  - Continuous integration
   - Compilers
   - Assemblers
   - Linkers
   - Make utilities
   - Emulators/Virtualizers
-- Computer Architecture
 - Operating Systems
   - Kernels
   - Filesystems
@@ -50,18 +77,14 @@ The topics listed here are a combination of things I do and don't have experienc
   - Security
   - Memory management
   - Multiprocessing
-- Databases
-- Mixins
-- Finite state machines
 
 ## Reading List
 
 ### Currently Reading
 
-- [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?crid=25FA03V305LZR&keywords=the+c+programming+language&qid=1567439093&s=books&sprefix=The+C+P%2Cstripbooks%2C170&sr=1-1)
-
 ### Read
 
+- [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628/ref=sr_1_1?crid=25FA03V305LZR&keywords=the+c+programming+language&qid=1567439093&s=books&sprefix=The+C+P%2Cstripbooks%2C170&sr=1-1)
 - [The Pragmatic Programmer](https://www.amazon.com/dp/020161622X/?coliid=I12RI0EWJPOWXP&colid=1248G3Y88U4I8&psc=1&ref_=lv_ov_lig_dp_it)
 - [21st Century C: Tips from the New School](https://www.amazon.com/21st-Century-Tips-New-School/dp/1449327141)
 
@@ -86,8 +109,3 @@ The topics listed here are a combination of things I do and don't have experienc
 
 - [OSDev Wiki](https://wiki.osdev.org/Main_Page)
 - [C/C++ Reference](https://en.cppreference.com/w/)
-
-## Courses
-
-- [MIT OpenCourseware 6.042J - Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/index.htm)
-- [MIT OpenCourseware 6.006 - Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/)
