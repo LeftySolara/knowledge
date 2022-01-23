@@ -40,5 +40,5 @@
     - [Recipes](cooking/recipes.md)
   - [Productivity](productivity/README.md)
     - [Getting Things Done (GTD)](productivity/gtd.md)
-    - [My GRD Trigger List](productivity/gtd_trigger_list.md)
+    - [My GTD Trigger List](productivity/gtd_trigger_list.md)
     - [My Personal Knowledge Management System](productivity/knowledge_management.md)
