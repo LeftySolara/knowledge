@@ -89,10 +89,25 @@ Hooks are a feature from React 16.8 that allow the use of state, lifecycle metho
 - [Reusing stateful logic between components is hard](https://reactjs.org/docs/hooks-intro.html#its-hard-to-reuse-stateful-logic-between-components)
 - [Complex components can become hard to understand](https://reactjs.org/docs/hooks-intro.html#complex-components-become-hard-to-understand)
 
+## Environment Variables
+
+Environment variables can be added to a react project by adding a `.env` file to the project root. Each variable **must** start with REACT_APP. For example:
+
+```
+REACT_APP_API_ENDPOINT="http://localhost:5000"
+```
+
+Configured variables can be accessed using `process.env`:
+
+```
+const myEndpoint = process.env.REACT_APP_API_ENDPOINT
+```
+
 ## Links
 
 - [Official React Website](https://reactjs.org/)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Adding Custom Environment Variables](https://create-react-app.dev/docs/adding-custom-environment-variables/)
 - [Components and Props](https://reactjs.org/docs/components-and-props.html)
 - [StackOverflow - When to use ES6 class based React components vs. functional ES6 React components](https://stackoverflow.com/questions/36097965/when-to-use-es6-class-based-react-components-vs-functional-es6-react-components)
 - [The Odin Project - Lifecycle Methods](https://www.theodinproject.com/courses/javascript/lessons/lifecycle-methods)
