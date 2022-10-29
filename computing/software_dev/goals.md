@@ -82,7 +82,7 @@ This is a list of things I'd like to learn more about as I grow as a software de
 
 ### Currently Reading
 
-- [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
+- [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200)
 
 ### Read
 
@@ -92,6 +92,8 @@ This is a list of things I'd like to learn more about as I grow as a software de
 
 ### Plan to Read
 
+- [The UNIX Programming Environment](https://www.amazon.com/Unix-Programming-Environment-Prentice-Hall-Software/dp/013937681X)
+- [Beej's Guide to Network Programming](https://www.amazon.com/dp/1705309909)
 - [Programming: Principles and Practice Using C++ (2nd Edition)](https://www.amazon.com/gp/product/0321992784/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 - [Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 - [The Elements of Computing Systems](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p)
