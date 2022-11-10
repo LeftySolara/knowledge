@@ -21,6 +21,7 @@
     - [Operating Systems](computing/operating_systems/README.md)
       - [UNIX Operating Systems](computing/operating_systems/unix_linux/README.md)
         - [Fundamentals](computing/operating_systems/unix_linux/fundamentals/README.md)
+        - [Processes](computiny/../computing/operating_systems/unix_linux/processes.md)
         - [The Shell](computing/operating_systems/unix_linux/shell.md)
         - [Users and Groups](computing/operating_systems/unix_linux/users_groups.md)
     - [Software Development](computing/software_dev/README.md)
