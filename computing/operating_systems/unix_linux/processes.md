@@ -48,6 +48,14 @@ The _heap_ is an area in which memory can be dynamically allocated at runtime.
 
 ## Virtual Memory Management
 
+The virtual memory scheme splits memory used by a process into pages. A **page** is a small, fixed-size, contiguous unit of virtual memory. On x86-32, pages are 4096 bytes.
+
+RAM is divided into a series of page frames of the same size. A **page frame** is the smallest fixed-length block of physical memory into which memory pages are mapped.
+
+For most processes, only some pages need to be present in physical memory at a time. The pages in physical memory form a **resident set**. Copies of the unused pages are stored in swap space and loaded into memory as needed. A **page fault** occurs when a process attempts to reference a page not currently stored in physical memory.
+
+The kernel maintains a page table for each process. A **page table** describes the location of each page in a processes's virtual address space. It's a set of all virtual memory pages available to a process.
+
 ## Links
 
 - [The Linux Programming Interface](https://man7.org/tlpi/)
