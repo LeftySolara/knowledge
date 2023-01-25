@@ -1,6 +1,6 @@
 # Table of Contents
 
-- [Home](README.md)
+- [Home](codex/README.md)
   - [Computer Science and Programming](computing/README.md)
     - [Data Structures](computing/data_structures/README.md)
       - [Array](computing/data_structures/arrays.md)
@@ -21,9 +21,8 @@
     - [Operating Systems](computing/operating_systems/README.md)
       - [UNIX Operating Systems](computing/operating_systems/unix_linux/README.md)
         - [Fundamentals](computing/operating_systems/unix_linux/fundamentals/README.md)
-        - [Processes](computiny/../computing/operating_systems/unix_linux/processes.md)
-        - [The Shell](computing/operating_systems/unix_linux/shell.md)
-        - [Users and Groups](computing/operating_systems/unix_linux/users_groups.md)
+            - [Processes](computing/operating_systems/unix_linux/fundamentals/processes.md)
+        - [xv6](computing/operating_systems/unix_linux/xv6/README.md)
     - [Software Development](computing/software_dev/README.md)
       - [General Tips](computing/software_dev/tips.md)
       - [My Goals as a Software Developer](computing/software_dev/goals.md)
