@@ -44,6 +44,64 @@ The following are some examples of what a basic OS should have regarding interac
 - **Miscellaneous Control**: Other process controls, such as suspending and resuming
 - **Status Check**: The ability to fetch process information such as how long it's been running, the current state, etc.
 
+This begs the question: what interfaces should an OS present for process creation can control? On UNIX systems, those interfaces consist of the following:
+
+### The `fork()` System Call
+
+The `fork()` system call is useful for creating new processes. The way it works is a follows:
+
+Every process has a **process identifier (PID)**, a name we can use when we want to control it. When `fork()` is called, it creates a _new_ process with its own PID. This new process also has its own copy of the process's address space, its own registers, etc. It is an _almost_ exact copy of the calling process.
+
+The new process is called the **child**, while the original process is called the **parent**. After the call to `fork()`, the child process receives a return code of 0 and the parent receives a return code of the child's PID.
+
+When the child process runs, it does not start at `main()`. Instead, it starts at the same location where `fork()` was called.
+
+Either the child or parent can run after the `fork()` is called. That is determined by the **CPU scheduler**.
+
+**TODO**: Add example code that uses the `fork()` system call.
+
+### The `wait()` System Call
+
+The `wait()` system call is useful if you want to make a process wait for another process to finish. When called after a `fork()`, it makes the parent process suspend execution until the child has finished running.
+
+**TODO**: Add example code that uses the `wait()` system call.
+
+### The `exec()` System Call
+
+The `exec()` system call (and its variants) are useful if you want to run a program that is different from the calling program.
+
+`exec()` does _not_ create a new process. Instead it takes the name of an executable, loads code and static data from it, and overwrites its current code segment with it; the stack, heap, and other parts of program memory are re-initialized. It essentially transforms a currently-running program into a different running program.
+
+A successful call to `exec()` never returns.
+
+**TODO**: Add example code that uses the `exec()` system call (or one of its variants).
+
+###  Output Redirection, Pipes, and "The Why"
+
+Why do we use such an odd interface for simple process creation?
+
+The answer is that the separation of `fork()` and `exec()` are essential in building a UNIX shell. It allows the shell to run code _after_ the call to `fork()` but _before_ the call to `exec()`. This code could alter the environment of the program that is about to run.
+
+Remember, the shell is just a user program. When you interact with it, it performs the following steps:
+
+1. Display a prompt
+2. Wait for user input
+3. Call `fork()` to create a new process for running the given command
+4. Call some variant of `exec()` to run the command
+5. Wait for the command to complete by using `wait()`
+
+The separation of `fork()` and `exec()` also allow the shell to do a number of useful things like **output redirection**. Take the following command as an example:
+
+```
+prompt> wc hello.c > newfile.txt
+```
+
+Here, the output of `hello.c` is redirected to `newfile.txt`. How does this work? When the child process is created, before calling `exec()`, the shell closes **standard output** and opens `newfile.txt`. By doing this, any output from `wc` is sent to the file.
+
+This works because of a particular behavior in UNIX systems. They start looking for free file descriptors starting at 0 (which is standard output). If you close 0, then it checks for 1, then 2, and so on until it finds an open one. In this case, the open one is our file.
+
+**Pipes** are implemented in a similar way, except with the `pipe()` system call. Output of one process is connected to an in-kernel pipe (basically, a queue) and the input of another process is connected to that same pipe. Thus, the output of one process is used as input to the next.
+
 ## Process Creation
 
 This is a list of steps performed that turns a program into a running process:
@@ -75,3 +133,5 @@ For a more concrete example, check out the `proc` data structure in xv6 or Linux
 ## References
 
 - [Operating Systems - Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [The Linux Programming Interface](https://man7.org/tlpi/)
+- [Process (Computing) - Wikipedia](<https://en.wikipedia.org/wiki/Process_(computing)>)
