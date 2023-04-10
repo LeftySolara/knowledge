@@ -22,6 +22,7 @@
       - [UNIX Operating Systems](computing/operating_systems/unix_linux/README.md)
         - [Fundamentals](computing/operating_systems/unix_linux/fundamentals/README.md)
             - [Virtualization](computing/operating_systems/unix_linux/fundamentals/virtualization/README.md)
+                - [CPU Virtualization](computing/operating_systems/unix_linux/fundamentals/virtualization/cpu_virtualization.md)
                 - [Processes](computing/operating_systems/unix_linux/fundamentals/virtualization/processes.md)
             - [Processes](computing/operating_systems/unix_linux/fundamentals/processes.md)
         - [xv6](computing/operating_systems/unix_linux/xv6/README.md)
