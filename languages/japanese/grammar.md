@@ -5,6 +5,7 @@
 You can say things like "I am a musician" or "My major is Japanese" by using the pattern **XはYです**. For example:
 
 > 学生です。*(I am) a student.*
+
 > 本語です。*(My major) is Japanese.*
 
 You'll notice that there are no subjects in these sentences like in English. That's because Japanese speakers tend to omit them when it's clear who or what they are talking about.
@@ -60,8 +61,11 @@ Example of making a noun more specific:
 この, その, あの, and どの are more specific than これ, それ, あれ, and どれ. Use these when you know what something is. Again, in question sentences you must use が as the following particle.
 
 > このかばんは高いですね。　*This bag is expensive.*
+
 > そのかばんが高いですか。　*Is that bag expensive?*
+
 > あのかばんは高いですね。　*That bag over there is expensive.*
+
 > どのかばんが高いですか。　*Which bag is expensive?*
 
 ## ここ　そこ　あそこ　どこ
