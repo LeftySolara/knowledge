@@ -67,6 +67,57 @@ When the OS regains control, it must decide whether to continue running the alre
 
 If the OS decides to switch processes, it performs what is known as a **context switch**. During this event, the OS saves register values from the currently-executing process and restores registers from the soon-to-be-running process. This ensures that when the return-from-trap triggers, the system executes the new process rather than the old one.
 
+## Scheduling
+
+There are three metrics we care about: turnaround time, response time, and fairness.
+
+**Turnaround time** is defined as the time at which a job completes minus the time at which the job arrived in the system.
+
+**Response time** is the time from when the job arrives in a system to the first time it is scheduled.
+
+**Fairness** is a metric used to determine whether a process is receiving a fair share of system resources.
+
+### Multi-Level Feedback Queue
+
+The goal of the MLFQ is to minimize turnaround time and response time. The challenge comes from the fact that we don't know how long jobs will run.
+
+The MLFQ has a number of distinct **queues**, each of which is assigned a **priority level**. At any given time, a job that's ready to run will be on a single queue.
+
+Jobs are run based on priority. If multiple jobs have the same priority, then round-robin scheduling is used among them.
+
+#### Basic Rules
+
+There are five basic rules for an MLFQ:
+
+1. If Priority(A) > Priority(B), A runs (B doesn't)
+2. If Priority(A) = Priority(B), A & B run in Round Robin
+3. When a job enters the system, it is placed at the highest priority (the topmost queue)
+4. Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (moves down one queue)
+5. After some time period _S_, move all the jobs in the system to the topmost queue
+
+The time period _S_ is usually a constant that requires some kind of black magic to set properly. Set it too high and long-running jobs starve. Too low and interactive jobs may not get their proper share of the CPU.
+
+#### Changing Priority
+
+Since  we don't know how long a job will run, we assume it might be short. If it is short, then it will run quickly and complete. If not, then it will slowly move down the queues (based on the above rules) and prove itself to be a long-running process.
+
+#### Possible Problems
+
+There are three possible problems with the MLFQ:
+
+- Starvation: if there's a lot of short-running jobs they will combine to consume all CPU time, so no long-running jobs get to run.
+- Gaming the scheduler: for example, a program that does some dummy I/O to give up the CPU just before its time slice is up, thus keeping the priority high.
+- Jobs can change their behavior.
+
+##### Solutions to Problems
+
+Rule 5 solves two problems at once:
+
+1. Processes are guaranteed to not starve; by sitting in the top queue, a job will share CPU with other jobs in round-robin fashion
+2. If a CPU-bound job becomes interactive, the scheduler treats it properly once it has received the priority boost
+
+Rule 4 is the solution to gaming the system.
+
 ## References
 
 - [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
