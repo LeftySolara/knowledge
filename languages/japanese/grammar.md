@@ -88,8 +88,40 @@ These words represent places.
 
 > ジュリアンヌさんの家はどこですか。　*Where is Julianne's house?*
 
-## たれのnoun
+## だれのnoun
 
 The pattern **だれの\<noun>** is used to ask who something belongs to.
 
 > これはだれのかばんですか。　*Whose bag is this?*
+
+## noun も
+
+The particle も essentially means "too". You use it to specify that something shares some property with a previously-mentioned thing.
+
+> このかばんは高いです。　This bag is expensive.
+> そのかばんも高いです。　That bag is *also* expensive.
+
+## Negating Statements
+
+To negate a statement, simply replace the ending です with じゃないです.
+
+> これはジュリアンヌさんのくつじゃないです。　These are not Julianne's shoes.
+
+Note that this does *not* work with adjectives.
+
+Another way of doing this is by using じゃありません, which is more formal. じゃ is a contraction of では, which is even more formal and more appropriate for writing.
+
+> ジュリアンヌさんは学生じゃありません。　Julianne is not a student.
+> ジュリアンヌさんは学生ではありません。　Julianne is not a student.
+
+## ~ね・~よ
+
+You will often hear statements end with an extra ね or よ thrown in. Whether you hear these depends on how the speaker feels about the interaction with the listener.
+
+Adding ね is equivalent to adding "right"? to the end of a sentence:
+
+> これは肉じゃないですね。　This is not meat, right?
+
+Adding よ is similar to adding "I tell you" or "I assure you" to the end of a statement. It's used to assure the listener of what has been said.
+
+> それは肉じゃないですよ。　Let me assure you, that is not meat.
