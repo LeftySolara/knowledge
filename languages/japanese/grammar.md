@@ -99,6 +99,7 @@ The pattern **だれの\<noun>** is used to ask who something belongs to.
 The particle も essentially means "too". You use it to specify that something shares some property with a previously-mentioned thing.
 
 > このかばんは高いです。　This bag is expensive.
+
 > そのかばんも高いです。　That bag is *also* expensive.
 
 ## Negating Statements
@@ -112,6 +113,7 @@ Note that this does *not* work with adjectives.
 Another way of doing this is by using じゃありません, which is more formal. じゃ is a contraction of では, which is even more formal and more appropriate for writing.
 
 > ジュリアンヌさんは学生じゃありません。　Julianne is not a student.
+
 > ジュリアンヌさんは学生ではありません。　Julianne is not a student.
 
 ## ~ね・~よ
@@ -125,3 +127,125 @@ Adding ね is equivalent to adding "right"? to the end of a sentence:
 Adding よ is similar to adding "I tell you" or "I assure you" to the end of a statement. It's used to assure the listener of what has been said.
 
 > それは肉じゃないですよ。　Let me assure you, that is not meat.
+
+## Verb Conjugation: ru-verbs and u-verbs
+
+Verbs in Japanese conjugate, or change form. Here we learn three forms:
+
+1. Dictionary Form
+2. Present Tense Affirmative
+3. Present Tense Negative
+
+There are two kinds of verbs that follow regular conjugation patterns:
+
+1. ru-verbs
+2. u-verbs
+
+A ru-verb is a verb that ends with る. They are usually created by adding a る to the base of the word to form the dictionary form. Note that some verbs ending with る may actually be u-verbs that just happen to end with る. To conjugate a ru-verb, simply replace the る with ます or ません.
+
+An u-verb is a verb whose dictionary form consists of the word's base and the suffix "-u" (く, む, ぬ, etc.). To conjugate an u-verb, you replace the "-u" character with an "-i" character and add the suffix ます or ません.
+
+Examples of conjugating a ru-verb and an u-verb are listed below.
+
+|                     	| ru-verb    	| u-verb     	|
+|:-------------------:	|------------	|------------	|
+|      verb base      	| たべ       	| ik         	|
+|   dictionary form   	| たべる     	| いく       	|
+| present affirmative 	| たべます   	| いきます   	|
+|   present negative  	| たべません 	| いきません 	|
+|         stem        	| たべ       	| いき       	|
+
+It is important to remember which class each verb belongs to, especially for verbs ending with る. They may be irregular verbs, or ru-verbs, or u-verbs that happen to end with the consonant "r". Usually, if you see the vowels "a", "u", or "o" right before the final る, then it is an u-verb. If you see an "i" or "e" before the final る, then it is usually a ru-verb. There are exceptions to this rule, like かえる.
+
+### Irregular Verbs
+
+There are some verbs that do not follow standard conjugation rules. These are called _irregular verbs_. Two examples of this are する and くる:
+
+|   dictionary form   	| する     	| くる     	|
+|:-------------------:	|----------	|----------	|
+| present affirmative 	| します   	| きます   	|
+|   present negative  	| しません 	| きません 	|
+|         stem        	| し       	| き       	|
+
+These verbs are also used to form compound verbs, like べんきょうする.
+
+## Verb Types and "Present Tense"
+
+The "present tense" of an "action verb" either means:
+
+1. The person regularly engages in the activity.
+2. The person will, or is planning to, perform the action in the future.
+
+For example, a habitual action would be described as follows:
+
+> 私はよくテレビをみます。　*I often watch television.*
+
+And a future action would be:
+
+> 私はあしたきょうとに行きます。　*I will go to Kyoto tomorrow.*
+
+## Particles
+
+Nouns used in sentences generally must be followed by particles, which indicate the relations that the nouns bear to the verbs.
+
+For example, four particles are を, で, に, and へ.
+
+### を
+
+The particle を indicates "direct objects", the kind of things that are directly involved in, or affected by, the event. It is pronounced "o".
+
+> おんがくをききます。　*I listen to music.*
+
+### で
+
+で indicates where the event described by the verb takes place.
+
+> としょかんで本をよみます。　*I will read books at the library.*
+
+### に
+
+に has many meanings, but we'll just cover two here:
+
+1. the goal toward which things move
+2. the time at which an event takes place
+
+For example, as a goal of movement:
+
+> 私は今日がっこうに行きません。　*I will not go to school today.*
+
+And for specific times (the first に):
+
+> 日曜日にきょうとに行きます。　*I will go to Kyoto on Sunday.*
+
+Approximate time references can be made by substituting ごろ or ごろに for に.
+
+> 十一時ごろねます。　*I will go to bed at about eleven.*
+
+Note that you do not typically use に for relative times, such as "tomorrow" or "yesterday". You also do not use it with the word for "weekend" or for parts of the day ("in the morning", "at night", etc.). You do use it for days of the week and numerical time expressions.
+
+### へ
+へ also indicates goal of movement. It can replace に in those cases. Pronounced "e".
+
+> 私はうちへかえります。　*I will return home.*
+
+## Extending Invitations
+
+You can use ません to extend an invitation. Just use the present tense negative verb plus the question particle.
+
+> 昼ご飯を食べませんか。　*Would you like to have lunch (with me)?*
+
+Note that you cannot use the affirmative form of a verb for this.
+
+## Word Order
+
+Japanese sentences are fairly flexible in the arrangement of elements that appear in them. They are mostly made of several noun-particle sequences followed by a verb or an adjective, which is followed by a sentence-final particle like か, ね, or よ. Among the noun-particle sequences, their order is mostly free.
+
+## Frequency Adverbs
+
+You can add a frequency adverb like まいにち, よく, or ときどき to describe how often you do something.
+
+> 私はときどききっさてんに行きます。　*I sometimes go to the cafe.*
+
+When describing how _infrequently_ you do sometime, you need to conclude with ません.
+
+> 私はぜんぜんテレビを見ません。　*I do not watch television at all.*
