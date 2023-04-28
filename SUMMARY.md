@@ -18,6 +18,7 @@
     - [Networking](computing/networking/README.md)
       - [IP Protocol](computing/networking/internet_protocol.md)
       - [Network Devices](computing/networking/networking_devices.md)
+      - [OSI Model and TCP/IP](computing/networking/osi_model.md)
       - [Sockets](computing/networking/sockets.md)
     - [Operating Systems](computing/operating_systems/README.md)
       - [UNIX Operating Systems](computing/operating_systems/unix_linux/README.md)
