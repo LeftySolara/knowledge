@@ -20,6 +20,7 @@
       - [Network Devices](computing/networking/networking_devices.md)
       - [OSI Model and TCP/IP](computing/networking/osi_model.md)
       - [Ethernet LAN Switching](computing/networking/ethernet_lan_switching.md)
+      - [IPv4 Addressing](computing/networking/ipv4_addressing.md)
       - [Sockets](computing/networking/sockets.md)
     - [Operating Systems](computing/operating_systems/README.md)
       - [UNIX Operating Systems](computing/operating_systems/unix_linux/README.md)
