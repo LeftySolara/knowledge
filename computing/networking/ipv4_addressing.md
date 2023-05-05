@@ -50,7 +50,7 @@ max = 2^n - 2
 
 where *n* is the number of bits in the host portion of the address.
 
-## Configuring IP Addresses on Cisco Switches
+## Configuring IP Addresses on Cisco Routers
 
 To configure IP addresses on a Cisco router:
 
