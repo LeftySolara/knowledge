@@ -318,4 +318,4 @@ The particle と has two meanings/functions. One is to connect two nouns A and B
 
 The other meaning of と is "together with". It describes with whom you do something.
 
-> メアリーさんはスーさんと勧告に行きます。　*Mary will go to Korea with Sue.*
+> メアリーさんはスーさんと韓国に行きます。　*Mary will go to Korea with Sue.*
