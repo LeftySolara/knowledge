@@ -249,3 +249,73 @@ You can add a frequency adverb like まいにち, よく, or ときどき to des
 When describing how _infrequently_ you do sometime, you need to conclude with ません.
 
 > 私はぜんぜんテレビを見ません。　*I do not watch television at all.*
+
+## Xがあります/います
+
+Xがあります means "there is/are X". This is only used for nonliving things. For living things, use Xがいます.
+
+The particle が introduces item X. You can use this pattern to say that something is in a certain location.
+
+> あそこにぎんこうがあります。　*There's a bank over there.*
+
+Note that this pattern calls for the particle に instead of で for place descriptions.
+
+You can use あります to say you have or own something:
+
+> テレビがありません。　*I don't have a TV.*
+
+You can also use it to say that an event will take place:
+
+> 金曜日にクラスがあります。　*There will be class on Friday.*
+
+## Describing Where Things Are
+
+You can describe the location of an item relative to another item by using **XはYの\<place>です**:
+
+> あのデパートの前です。　*It's in front of that department store.*
+
+You can also use location words together with a verb to describe an event that occurs in a place:
+
+> 私は学校の前でメアリーさんをまちました。　*I waited for Mary in front of the school.*
+
+**NOTE**: both とんり and よこ mean "side-by-side" or "next to". となり is used when both things are of the same category (two people, two buildings, etc.). よこ is used when the items are distinct.
+
+## Past Tense of です
+
+The past tense of です looks like the following:
+
+|               	| affirmative 	| negative          	|
+|:-------------:	|-------------	|-------------------	|
+| present tense 	| ~です       	| ~じゃないです     	|
+|   past tense  	| ~でした     	| ~じゃなかったです 	|
+
+## Past Tense of Verbs
+
+The past tense of verbs looks like the following:
+
+|               	| affirmative 	| negative          	|
+|:-------------:	|-------------	|-------------------	|
+| present tense 	| ~ます       	| ~ません     	|
+|   past tense  	| ~ました     	| ~ませんでした 	|
+
+## Time Durations
+
+The duration of an activity is expresses with a bare noun, like 一時間. The noun is not followed by any particle.
+
+> 私はここで山田さんを一時間まちました。　*I waited for Yamada here for an hour.*
+
+For approximate time measurements, add ぐらい after ~時間.
+
+## Quantity
+
+If you want to add quantity words like たくさん to the direct object of a sentence, you can place it before the noun or after the particle を.
+
+## と
+
+The particle と has two meanings/functions. One is to connect two nouns A and B:
+
+> 日本語と英語を話します。　*I speak Japanese and English.*
+
+The other meaning of と is "together with". It describes with whom you do something.
+
+> メアリーさんはスーさんと勧告に行きます。　*Mary will go to Korea with Sue.*
