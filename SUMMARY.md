@@ -61,3 +61,4 @@
     - [My Personal Knowledge Management System](productivity/knowledge_management.md)
     - [Obsidian](./productivity/obsidian/README.md)
 	    - [Plugins](./productivity/obsidian/Plugins.md)
+	    - [Using Obsidian](<./productivity/obsidian/Using Obsidian.md>)
