@@ -59,3 +59,5 @@
     - [Getting Things Done (GTD)](productivity/gtd.md)
     - [My GTD Trigger List](productivity/gtd_trigger_list.md)
     - [My Personal Knowledge Management System](productivity/knowledge_management.md)
+    - [Obsidian](./productivity/obsidian/README.md)
+	    - [Plugins](./productivity/obsidian/Plugins.md)
