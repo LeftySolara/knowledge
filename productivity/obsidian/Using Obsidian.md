@@ -16,12 +16,7 @@ These are my notes on various ways to use Obsidian efficiently. They're a combin
 
 Obsidian allows you to work directly with files on your device. When you open a folder in Obsidian, that folder becomes a **vault**. Basically, it's the root folder that you'll be working in. You can have as many vaults as you like, but only one can be open per window.
 
-```ad-important
-Each vault in Obsidian has its own separate set of settings and plugins. If you change any settings or install plugins, they will only apply to that vault.
-
-To copy settings and plugins between vaults, simply copy around the `.obsidian` folder that exists inside the root directory of the vault.
-```
-
+Each vault in Obsidian has its own separate set of settings and plugins. If you change any settings or install plugins, they will only apply to that vault. To copy settings and plugins between vaults, simply copy around the `.obsidian` folder that exists inside the root directory of the vault.
 
 ## Metadata
 
