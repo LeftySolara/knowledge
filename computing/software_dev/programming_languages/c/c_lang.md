@@ -92,8 +92,48 @@ Note that while the above statement is a good goal to have, it is not always pos
 
 ### The Structure of A Program
 
-> [!note]
-> Content coming soon. 
+#### Grammar
+
+- A C program is composed of different types of text elements that are assembled together
+- Special Words
+    - Represent concepts and features in C that cannot be changed
+    - Examples: `#include`, `int`, `void`, etc.
+- Punctuation
+    - C uses several types of punctuation to structure program text
+    - Five different kinds of brackets: {}, (), [], /* \*/, <>
+        - Used to group certain parts of the program together
+        - Should always come in pairs
+    - Two different separators or terminators: comma and semicolon
+        - Commas separate things
+        - Semicolons terminate things
+    - Comments
+        - Denoted by // and /* \*/
+        - Ignored by the compiler
+        - Perfect place to explain and document code
+    - Literals
+        - Fixed values that are a part of the program
+    - Identifiers
+        - Names given to different entities in a program
+        - They may refer to:
+            - Data objects / variables
+            - Type aliases
+            - Functions
+            - Constants
+    - Functions
+    - Operators
+    
+#### Declarations
+
+- Before we can use an identifier, it must be declared
+- Declaring specifies what the identifier is supposed to represent
+
+> [!tip]
+> All identifiers in a program have to be declared
+
+- Variables are named items that allow us to store values
+
+#### Definitions
+
 
 
 ## References
