@@ -126,15 +126,33 @@ Note that while the above statement is a good goal to have, it is not always pos
 
 - Before we can use an identifier, it must be declared
 - Declaring specifies what the identifier is supposed to represent
+- Different from keywords; keywords are predefined by the language and must not be declared or redefined
 
-> [!tip]
-> All identifiers in a program have to be declared
+> [!tip] Takeaway
+> All identifiers in a program have to be declared.
 
+- Some examples of identifiers in [[#Code Sample print_squares.c|print_squares.c]] are `arr` and `i`
 - Variables are named items that allow us to store values
+- Declarations are bound to the scope in which they appear.
 
 #### Definitions
 
+- Identifiers only specify the kind of object it refers to, not what it is
+- *Definitions* are what identifiers identify
 
+> [!tip] Takeaway
+> Declarations specify identifiers, while definitions specify objects.
+
+- *Initialization* is an augmented declaration where an initial value is provided. For example: `size_t i = 0`
+
+> [!tip] Takeaway
+> An object is defined at the same time it is initialized.
+
+- Each object or function must have exactly one definition
+
+#### Statements
+
+- *Statements* are instructions that tell the compiler what to do with identifiers
 
 ## References
 
