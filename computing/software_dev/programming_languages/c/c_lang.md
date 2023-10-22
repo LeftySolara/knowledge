@@ -6,6 +6,8 @@ C is a general-purpose, procedural programming language developed by Dennis Ritc
 
 ## The Basics
 
+In this section we will cover a bit about programming in general.
+
 ### Imperative Programming
 
 - C programs have the computer do specific tasks by giving orders
@@ -153,6 +155,218 @@ Note that while the above statement is a good goal to have, it is not always pos
 #### Statements
 
 - *Statements* are instructions that tell the compiler what to do with identifiers
+
+## An Introduction to C
+
+This section will provide information for writing good, modern C programs. By "good", we mean modern and portable.
+
+### Control Flow
+
+- C has five conditional *control statements*: `if`, `for`, `do`, `while`, and `switch`
+    - `if` introduces a conditional execution depending on a Boolean expression
+    - `for`, `do`, and `while` are different forms of iterations
+    - `switch` is a multiple selection based on an integer value
+
+#### Conditional Execution (`if` statements)
+
+An *`if` statement* looks something like this:
+
+```c title:if.c
+if (i > 25) {
+    j = i - 25;
+}
+```
+
+In this example we compare `i` to the value 25. If it is larger than 25, then the value of `j` is set to `i - 25`. The expression `i > 25` is called the *controlling expression* and the part in `{ ... }` is called the *dependent block* or *dependent statement*.
+
+Note that there is only one part inside the parentheses, which determined whether the dependent statement or block is run once or not at all. This is different from a `for` loop, which we will discuss later.
+
+Another, more general form of the `if` statement is as follows:
+
+```c title:if_else.c
+if (i > 25) {
+    j = i - 25;
+}
+else {
+    j = i;
+}
+```
+
+This has a second dependent statement or block that is executed if the controlling condition is not fulfilled. This is done by adding the keyword `else` that separates the two statements or blocks.
+
+The `if (...) ... else ...` is called a *selection statement*. It selects one of the two *code paths* according to the contents of `( ... )`. The general form of this is
+
+```c title:selection_statement.c ln:false
+if (condition) {
+    statement0-or-block0
+}
+else {
+    statement1-or-block1
+}
+```
+
+Here, `condition` can be a number of things ranging from simple to very complex nested expressions. The simplest example can be seen below.
+
+```c title:simple_if.c
+for (size_t i = 0; i < 5; ++i) {
+    if (i) {
+        printf("%d\n", i);
+    }
+}
+```
+
+In this example, the condition that determines whether `printf` runs is just `i`. A numerical value by itself can be interpreted as a condition. The text will only be printed when the value of `i` is not 0.
+
+There are two simple rules for the evaluation of a numerical condition:
+- The value `0` represents logical false.
+- Any value different from `0` represents logical true.
+
+The operators ` == ` and `!=` allow for testing equality and inequality. `a == b` is true if the value of `a` is equal to the value of `b`; `a != b` is false if `a` is equal to `b`, and true otherwise.
+
+### Iterations
+
+#### `for` Loops
+
+In the example `sample_if.c` we encountered the `for` statement. The general form of this statement is
+
+```c title:for.c ln:false
+for (clause1; condition2; expression3) {
+    statement-or-block
+}
+```
+
+Usually, `clause1` is an assignment expression or variable definition. It sets the initial value for the iteration domain. `condition2` tests whether the iteration should continue. Then, `expression3` updates the iteration value used in `clause1`. It is performed at the end of each iteration.
+
+Here is an example:
+
+```c title:for2.c ln:false
+for (size_t i = 0; i < 5; ++i) {
+    do_something(i);
+}
+```
+
+In this example, the `for` counts up from 0 to 5, exclusive. When the value of `i` is greater than or equal to 5, the loop stops.
+
+Note that the iteration variable is named `i`. It is common to use the letters "i" and "j" as names for this variable.
+
+> [!tip] Takeaway
+> It is customary to use the name `i` for your iteration variable. A loop nested inside the initial loop will use the name `j`, the loop nested inside that will use `k`, and so on. Note this this is only done when using "throwaway" variables.
+
+#### `while` Loops
+
+The two other iterative statements in C are `while` and `do`. Their basic forms are:
+
+```c title:"while loop" ln:false
+while (condition) {
+    statement-or-block;
+}
+```
+
+```c title:"do-while loop" ln:false
+do {
+    statement-or-block;
+} while (condition);
+```
+
+Here is an example of a normal `while` loop:
+
+```c title:while.c ln:false
+size_t i = 10;
+while (i > 3) {
+    do_something();
+}
+```
+
+In this example, `do_something` will execute repeatedly until the value of `i` is less than or equal to `3`.
+
+The `do-while` loop is very similar, except that it checks the condition *after* the dependent block:
+
+```c title:do-while.c ln:false
+size_t i = 10;
+size_t j = 20;
+do {
+    i = j + 1;
+} while (i < j);
+```
+
+This means that if the condition evaluates to `false`, the `while` loop will not run at all while the `do` loop will run one before terminating. Basically, if you want to run a `while` loop that always executes at least once, this is the way to do it.
+
+#### `break` And `continue`
+
+All three iteration statements become even more flexible with `break` and `continue` statements. A `break` statement stops the loop immediately:
+
+```c title:break.c ln:false
+while (true) {
+    double prod = a * x;
+    if (fabs(1.0 - prod) < eps) {
+        break;
+    }
+    x *= (2.0 - prod);
+}
+```
+
+Here, once the loop executes the `break` statement, it immediately terminates. The same can be done for `for` loops.
+
+The `continue` statement is similar to `break` in that it skips the iteration of the rest of the dependent block. However, instead of terminating the loop, it instead re-evaluates the condition and continues from the start of the dependent block if the condition is true. Basically, it skips the rest of the current iteration of the loop and moves to the next iteration.
+
+### Multiple Selection
+
+The final control statement in C is the `switch` statement. It is a *selection* statement and is mainly used when cascades of `if-else` blocks would be too tedious:
+
+```c title:tedious_if.c ln:false
+if (arg == 'm') {
+    puts("magpie");
+}
+else if (arg == 'r') {
+    puts("raven");
+}
+else if (arg == 'j') {
+    puts("jay");
+}
+else if (arg == 'c') {
+    puts("chough");
+}
+else (
+    puts("unknown");
+)
+```
+
+In this case, we have a choice that is more complex than a `false-true` decision and that can have several outcomes. We can simplify this by using a `switch` statement:
+
+```c title:switch.c ln:false
+switch (arg) {
+    case 'm':
+        puts("magpie");
+        break;
+    case 'r':
+        puts("raven");
+        break;
+    case 'j':
+        puts("jay");
+        break;
+    case 'c':
+        puts("cough");
+        break;
+    default:
+        puts("unknown");
+}
+```
+
+Here, we select one of the `puts` calls according to the value of `arg`. We provide specific cases for the characters `m`, `r`, `j`, and `c` and a fallback case labeled `default`. The default case is triggered if `arg` doesn't match any of the `case` values.
+
+Syntactically, a `switch` is as simple as
+
+```c title:switch_syntax.c ln:false
+switch (expression) {
+    statement-or-block
+}
+```
+
+and its semantics are straightforward: `case` and `default` serve as *jump targets*, which means that the program's execution will jump to them when a certain condition is met. If we hit a `break` statement, the whole `switch` terminates.
+
+There are two things to note about `switch` statements:
+- `case` values must be integer constant expressions
+- `case` labels must not jump beyond a variable definition
 
 ## References
 
